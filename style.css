@@ -32,7 +32,7 @@ h4 {
     height: 50vh;
     border: 5px solid darkgreen;
     border-radius: 5px;
-    left: 50%;
+    left: 30%;
     transform: translate(50%);
 }
 
@@ -47,7 +47,7 @@ h4 {
 
 .card {
     position: relative;
-    width: 10vw;
+    width: 8vw;
     height: 20vh;
     cursor: pointer;
     border: 1px solid black;
@@ -58,7 +58,7 @@ h4 {
 
 .cardFace, .cardBack {
     position: absolute;
-    width: 9vw;
+    width: 8vw;
     height: 20vh;
     backface-visibility: hidden;
     transition: transform 0.5s cubic-bezier(0.5, 0.0, 0.2, 1);
